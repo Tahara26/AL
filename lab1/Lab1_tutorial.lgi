@@ -1,0 +1,34 @@
+41 2 0
+38 1
+22 39 42 256 22 0 \NUL
+Justin Tahara jltahara@ucsc.edu
+22 39 66 320 46 0 \NUL
+Lab 1 - Intro to Logic with Multimedia Logic
+22 39 90 230 70 0 \NUL
+Michael Powell - Section 02C
+22 39 114 171 94 0 \NUL
+Due Date - 10/11/17
+8 138 306 187 257 1 0
+7 254 306 303 257 2 1
+22 48 292 129 272 0 \NUL
+Input switch
+22 308 292 385 272 0 \NUL
+Output LED
+22 47 218 150 198 0 \NUL
+Part A - Tutorial
+1 255 281 184 281
+39 16777215
+47 0
+40 1 6 6
+50 800 600
+51 0 100
+30
+System
+16
+700
+0
+0
+0
+0
+0
+34
