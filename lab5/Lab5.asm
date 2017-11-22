@@ -74,7 +74,9 @@ Decode:
 	div 	$t7, $t6, 128	# Divides the sum by 128 which is the total amount of ascii values
 	mfhi 	$t7		# Stores the remainder in $t7
 	sub	$t7, $t7, $t4	# Subtracts the key from the encrypted ascii value
+	bgtz 	$t7, Print	# If number is positive jump without adding 128
 	add	$t7, $t7, 128	# Adds 128 back to the value 
+Print:
 	li  	$v0, 11		# Sets up to print out the ascii value
 	move 	$a0, $t7	# Move the value from $t7 to $a0
 	syscall			# Do the syscall
